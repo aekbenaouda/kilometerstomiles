@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  width: 40%;
+  margin: 10% 30%;
+}
+h1,
+h2 {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+form {
+  text-align: center;
+  margin: 10px;
+}
+form input {
+  width: 60%;
+  height: 30px;
+}
+
+.card {
+  height: 100px;
+  background-color: rgb(0, 153, 255);
+  border-radius: 9px;
+  margin: 20px;
+}
+.card p {
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.card div {
+  padding-left: 10px;
+  color: white;
+}
+@media (max-width: 768px) {
+  body {
+    width: 80%;
+    margin: 10% 10%;
+  }
+}
